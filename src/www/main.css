@@ -84,7 +84,7 @@ body {
 
 footer {
     min-height: 50px;
-    border: 1px solid grey;
+    border-top: 1px solid grey;
     color: white;
     display: flex;
     justify-content: center;
