@@ -1,0 +1,111 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1 px solid black;
+    align-items: stretch;
+}
+
+.grad-1 {
+    background: #fceabb;
+    background: -webkit-linear-gradient(to left, #3a6186, #f8b500);
+    background: linear-gradient(to left, #3a6186, #89253e);
+}
+
+.grad-2 {
+    background: #fc00ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fc00ff, #00dbde);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fc00ff, #00dbde);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.grad-3 {
+    background: #F0C27B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #F0C27B, #4B1248);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F0C27B, #4B1248);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.grad-4 {
+    background: #FC354C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FC354C, #0ABFBC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FC354C, #0ABFBC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.grad-5 {
+    background: #E55D87;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E55D87, #5FC3E4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E55D87, #5FC3E4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content {
+    flex-grow: 1;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.newquote {
+    min-height: 50px;
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    min-height: 50px;
+    border: 1px solid grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Tangerine', serif;
+    font-weight: bold;
+    font-size: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    color: white;
+    padding-right: 200px;
+}
